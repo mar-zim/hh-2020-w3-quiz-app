@@ -2,5 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ddd;
+  background: var(--highlight1);
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: 800;
 }
