@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Quiz App</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+  </head>
+  <body class="main-grid">
+    <header class="main-header">Profile</header>
 
-</body>
+    <main class="profile__container">
+      <section class="profile__section">
+        <span class="profile__pic"
+          ><img src="../img/profile.svg" alt="Profilbild"
+        /></span>
+        <span class="profile__name">Cleverster Spieler</span>
+      </section>
+      <section class="profile__section">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          recusandae blanditiis est ratione veniam porro ea totam maxime illum
+          ex odit, quisquam temporibus obcaecati molestias debitis inventore
+          ullam voluptas eius!
+        </p>
+      </section>
+      <section class="profile__section">
+        <h2 class="profile__header">Meine Skills</h2>
+        <ul class="profile__taglist">
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+          <li>Skill 6</li>
+          <li>Skill 7</li>
+        </ul>
+      </section>
+      <section class="profile__section"></section>
+      <button class="profile__button">Ausloggen</button>
+    </main>
+
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html"
+        ><img src="../img/home.svg" alt="Home"
+      /></a>
+      <a class="navigation__link" href="/bookmarks.html"
+        ><img src="../img/bookmark.svg" alt="Bookmark"
+      /></a>
+      <a class="navigation__link" href="/create.html"
+        ><img src="../img/plus.svg" alt="Add question"
+      /></a>
+      <a class="navigation__link navigation__link--active" href="/profile.html"
+        ><img src="../img/profile.svg" alt="Profile"
+      /></a>
+    </nav>
+  </body>
 </html>
