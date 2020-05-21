@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Quiz App</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+  </head>
+  <body class="main-grid">
+    <header class="main-header">Neue Frage</header>
 
-</body>
+    <main class="createquestion__container">
+      <section class="createquestion__input">
+        <h2 class="createquestion__header">Frage</h2>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="createquestion__textarea"
+        ></textarea>
+      </section>
+      <section class="createquestion__input">
+        <h2 class="createquestion__header">Antwort</h2>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="createquestion__textarea"
+        ></textarea>
+      </section>
+      <section class="createquestion__input">
+        <h2 class="createquestion__header">Tags</h2>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="1"
+          class="createquestion__textarea"
+        ></textarea>
+      </section>
+      <button class="createquestion__button">Frage erstellen</button>
+    </main>
+
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html"
+        ><img src="../img/home.svg" alt="Home"
+      /></a>
+      <a class="navigation__link" href="/bookmarks.html"
+        ><img src="../img/bookmark.svg" alt="Bookmark"
+      /></a>
+      <a class="navigation__link navigation__link--active" href="/create.html"
+        ><img src="../img/plus.svg" alt="Add question"
+      /></a>
+      <a class="navigation__link" href="/profile.html"
+        ><img src="../img/profile.svg" alt="Profile"
+      /></a>
+    </nav>
+  </body>
 </html>

@@ -1,0 +1,27 @@
+.createquestion__container {
+  display: grid;
+  gap: 5px;
+  overflow: scroll;
+  padding: 30px;
+}
+
+.createquestion__input {
+  //border: solid 2px green;
+}
+
+.createquestion__header {
+  color: var(--secondary);
+  font-variant: small-caps;
+}
+
+.createquestion__button {
+  display: block;
+  align-self: left;
+  margin: 30px auto;
+  padding: 5px 10px;
+  color: var(--secondary);
+  background-color: #fefefe;
+  border: solid 2px var(--secondary);
+  border-radius: 7px;
+  box-shadow: 0 6px 12px #0005;
+}
