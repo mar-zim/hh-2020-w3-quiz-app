@@ -1,12 +1,69 @@
 .card {
-  padding: 20px;
+  position: relative;
+  padding: 5px 15px;
+  border: solid 2px var(--side);
+  border-radius: 10px;
   background: #eee;
   box-shadow: 0 6px 12px #0005;
 }
 
 .card__container {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   overflow: scroll;
-  padding: 20px;
+  padding: 30px;
+}
+
+.card__bookmark {
+  position: absolute;
+  top: -18px;
+  left: 230px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--highlight2);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__bookmark--active {
+  background: var(--side);
+}
+
+.card__header {
+  color: var(--secondary);
+  font-variant: small-caps;
+}
+
+.card__question {
+  padding-left: 25px;
+  font-size: 1em;
+}
+
+.card__button {
+  display: block;
+  align-self: center;
+  margin: 0 auto;
+  color: var(--secondary);
+  background-color: #fefefe;
+  border: solid 2px var(--secondary);
+  border-radius: 7px;
+  padding: 5px 10px;
+  box-shadow: 0 6px 12px #0005;
+}
+
+.card__taglist > li {
+  display: inline-block;
+  align-self: center;
+  margin: 3px 3px;
+  color: var(--secondary);
+  background-color: #fefefe;
+  border: solid 1px var(--secondary);
+  border-radius: 5px;
+  padding: 4px 8px;
+  box-shadow: 0 6px 12px #0005;
+  font-size: 0.9em;
+  font-family: monospace;
 }
