@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Quiz App</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+  </head>
+  <body class="main-grid">
+    <header class="main-header">Bookmarks</header>
+    <main class="card__container">
+      <section class="card">
+        <h2 class="card__header">Frage</h2>
+        <span class="card__bookmark card__bookmark--active"
+          ><img src="../img/bookmark.svg" alt="Bookmark"
+        /></span>
+        <p class="card__question">
+          Welches CSS Pseudo-Element fügt etwas vor einem Element ein?
+        </p>
+        <button class="card__button">Antwort zeigen</button>
+        <ul class="card__taglist">
+          <li>.before</li>
+          <li>insert-before</li>
+          <li>::before</li>
+          <li>before:</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2 class="card__header">Frage</h2>
+        <span class="card__bookmark card__bookmark--active"
+          ><img src="../img/bookmark.svg" alt="Bookmark"
+        /></span>
+        <p class="card__question">
+          Welches CSS Pseudo-Element fügt etwas vor einem Element ein?
+        </p>
+        <button class="card__button">Antwort zeigen</button>
+        <ul class="card__taglist">
+          <li>.before</li>
+          <li>insert-before</li>
+          <li>::before</li>
+          <li>before:</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2 class="card__header">Frage</h2>
+        <span class="card__bookmark card__bookmark--active"
+          ><img src="../img/bookmark.svg" alt="Bookmark"
+        /></span>
+        <p class="card__question">
+          Welches CSS Pseudo-Element fügt etwas vor einem Element ein?
+        </p>
+        <button class="card__button">Antwort zeigen</button>
+        <ul class="card__taglist">
+          <li>.before</li>
+          <li>insert-before</li>
+          <li>::before</li>
+          <li>before:</li>
+        </ul>
+      </section>
+    </main>
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html"
+        ><img src="../img/home.svg" alt="Home"
+      /></a>
+      <a
+        class="navigation__link navigation__link--active"
+        href="/bookmarks.html"
+        ><img src="../img/bookmark.svg" alt="Bookmark"
+      /></a>
+      <a class="navigation__link" href="/create.html"
+        ><img src="../img/plus.svg" alt="Add question"
+      /></a>
+      <a class="navigation__link" href="/profile.html"
+        ><img src="../img/profile.svg" alt="Profile"
+      /></a>
+    </nav>
+  </body>
 </html>
