@@ -4,17 +4,17 @@
 }
 
 .profile__name {
+  padding: 10px;
   color: var(--secondary);
   font-variant: small-caps;
-  justify-self: center;
 }
 
-.profile__section {
-  align-content: start;
-  border: solid green 1px;
+.profile__img--box {
+  display: flex;
+  align-items: center;
 }
 
-.profile__pic {
+.profile__img {
   border-radius: 50%;
   background: var(--highlight2);
   width: 150px;
@@ -46,5 +46,4 @@
   padding: 4px 8px;
   box-shadow: 0 6px 12px #0005;
   font-size: 0.9em;
-  font-family: monospace;
 }
